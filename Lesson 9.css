@@ -1,0 +1,46 @@
+.red{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.green{
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 130px;
+  display: inline-block;
+}
+
+.bord{
+  border-color: grey;
+  border-width: 1px;
+  border-style: solid;
+  width: 200px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 8px;
+  
+}
+
+.youtube{
+  background-color: rgb(33, 33, 33);
+  border: none;
+  width: 360px;
+  font-family: arial;
+  padding-top: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 1px;
+}
+
+.primu{
+  color: white;
+  font-weight: bold;
+}
+
+.doilea{
+  color: rgb(123, 120, 116);
+}

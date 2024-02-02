@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nested Flexbox Exercises</title>
+
+
+    <style>
+
+      .dreptunghi{
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        margin-bottom: 40px;
+      }
+
+      .roz {
+        background-color: lightpink;
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+
+      }
+
+      .albastru {
+      background-color: lightblue;
+      width: 200px;
+      }
+
+      .text {
+        color: white;
+        background-color: black; 
+      }
+      
+
+      .mare {
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+      }
+
+      .ro {
+        background-color: lightpink;
+        width: 100px;
+      }
+
+      .albas {
+        background-color:lightblue;
+        width: 200px;
+      }
+
+      .te {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row; 
+      }
+
+
+
+    </style>
+    </head>
+      
+    <div class="dreptunghi">
+      <div class="roz">
+        <div class="text">item1</div>
+      </div>
+      <div class="albastru"></div>
+    </div>
+
+
+
+
+    <div class="mare">
+      <div class="ro"></div>
+      <div class="albas">
+        <div>row1</div>
+        <div class="te">
+          <div class="text">row2</div>
+          <div class="text">row2</div>
+        </div>
+       
+      </div>
+    </div>
+
+  </body>
+</html>

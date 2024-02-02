@@ -1,0 +1,19 @@
+
+.Model{
+  font-family: Montserrat;
+  font-size: 40px;
+  margin-left: 200px;
+}
+
+.Order{
+  font-size: 26px;
+  margin-left: 85px;
+  line-height: 0px;
+}
+
+.Touchless{
+  text-decoration: underline;
+}
+.Touchless:hover{
+  cursor: pointer;
+}

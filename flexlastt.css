@@ -1,0 +1,70 @@
+div {
+  font-family: arial;
+}
+
+.general {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+}
+
+.poza {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 5px;
+}
+
+.everything {
+  margin-left: 15px;
+}
+
+.first-row {
+font-weight: bold;
+margin-bottom: 8px;
+display: flex;
+flex-direction: row;
+}
+
+.super {
+color: grey;
+padding-left: 4px;
+}
+
+.second-row {
+  width: 350px;
+  margin-bottom: 8px;
+  line-height: 22px;
+}
+
+.third-row {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 186, 186);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden; 
+  
+}
+
+
+.patrat {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(220, 220, 220);
+}
+.descriere-patrat {
+ flex: 1;
+ padding-left: 12px;
+}
+
+.youtube-text {
+  color: grey;
+  margin-bottom: 8px;
+}
+
+.last-text {
+  display: flex;
+}
